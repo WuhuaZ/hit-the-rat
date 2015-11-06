@@ -1,0 +1,145 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+
+.timebar{
+	width: 400px;
+	height: 75px;
+	position: relative;
+}
+
+#countdown{
+	width: 96px;
+	height: 46px;
+	border: 2px solid;
+    border-radius: 5px;
+    float: left;
+    background: #ee4126;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 5px;
+
+}
+
+.buttons{
+	float: left;
+}
+.buttons .start, .buttons .end{
+	background: #fba810;
+	width: 100px;
+	height: 50px;
+	border: 2px solid;
+    border-radius: 5px;
+}
+#grassland{
+	width: 750px;
+	height: 600px;
+	margin: 0 auto;
+	background: url(images/bg_canvas.png) 0 0 no-repeat;
+	position: relative;
+}
+
+
+#grassland .hole{
+	width: 108px;
+	height: 105px;
+	background: url(images/mouse.png) -18px -12px no-repeat;
+	display: none;
+
+}
+
+.appear{
+	-webkit-animation-name: rat-appear; 
+    -webkit-animation-duration: 1500ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: steps(1, start);
+    -moz-animation-name: rat-appear;
+    -moz-animation-duration: 1500ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: steps(1, start)
+}
+    
+@-webkit-keyframes rat-appear {
+    0% {
+        background-position: -18px -12px;
+    }
+	25% {
+	    background-position: -18px -12px;
+	}
+	50% {
+	    background-position: -18px -12px;
+	}
+	75% {
+	    background-position: -18px -12px;
+	}
+    100% {
+        background-position: -18px -12px;
+    }
+}
+
+@-moz-keyframes rat-appear {
+    0% {
+        background-position: -18px -12px;
+    }
+	25% {
+	    background-position: -18px -12px;
+	}
+	50% {
+	    background-position: -18px -12px;
+	}
+	75% {
+	    background-position: -18px -12px;
+	}
+    100% {
+        background-position: -18px -12px;
+    }
+}
+
+.hitted{
+	background: url(images/mouse.png) -18px -12px no-repeat;
+	-webkit-animation-name: rat-hitted; 
+    -webkit-animation-duration: 400ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: steps(1, start);
+    -moz-animation-name: rat-hitted;
+    -moz-animation-duration: 400ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: steps(1, start)
+}
+
+@-webkit-keyframes rat-hitted {
+    0% {
+        background-position: -418px -12px;
+    }
+	25% {
+	    background-position: -418px -12px;
+	}
+	50% {
+	    background-position: -418px -12px;
+	}
+	75% {
+	    background-position: -418px -12px;
+	}
+    100% {
+        background-position: -418px -12px;
+    }
+}
+
+@-moz-keyframes rat-hitted {
+    0% {
+        background-position: -418px -12px;
+    }
+	25% {
+	    background-position: -418px -12px;
+	}
+	50% {
+	    background-position: -418px -12px;
+	}
+	75% {
+	    background-position: -418px -12px;
+	}
+    100% {
+        background-position: -418px -12px;
+    }
+}
